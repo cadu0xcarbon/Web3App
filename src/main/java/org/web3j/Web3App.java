@@ -22,7 +22,7 @@ public class Web3App {
 
     public static void main(String[] args) throws Exception {
 
-        Web3j web3j = Web3j.build(new HttpService()); // defaults to port 8545; for alchemy connection = "https://eth-goerli.alchemyapi.io/v2/WS3X8JAM31fvjYnvqWCOOOIiXE9TL11h"
+        Web3j web3j = Web3j.build(new HttpService()); // defaults to port 8545; for alchemy connection = "https://eth-goerli.alchemyapi.io/v2/<ALCHEMY_KEY>"
 
         Credentials credentials = Credentials.create(PRIVATE_KEY);
 
